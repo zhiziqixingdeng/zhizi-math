@@ -14,7 +14,7 @@ void out(string x){
 int pow(int a,int b){
 	int ans=1;
 	for(int i=1;i<=b;i++){
-		ans*=b;
+		ans*=a;
 	}
 	return ans;
 }
